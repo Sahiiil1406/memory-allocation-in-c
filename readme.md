@@ -38,7 +38,8 @@ Maintain a data structure (e.g., a linked list) to track memory blocks within th
 When a user requests memory, search the metadata for a free block that’s large enough to satisfy the request.
 If found, split the block if necessary (if the block is larger than the requested size), update the metadata, and return a pointer to the allocated memory.
 If no block is available, return NULL.
-###Deallocation (my_free):
+<br/>
+### Deallocation (my_free):
 
 When a user frees memory, mark the corresponding block as free in the metadata.
 Optionally, merge adjacent free blocks to reduce fragmentation.
