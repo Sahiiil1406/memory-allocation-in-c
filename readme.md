@@ -2,6 +2,8 @@
 This project implements custom versions of malloc, calloc, realloc, and free functions in C from scratch. These functions provide dynamic memory allocation capabilities without relying on the standard library implementations.
 
 Dynamic memory allocation is a crucial feature in C programming, allowing for efficient use of memory by allocating and deallocating memory at runtime. This project aims to recreate the functionality of the standard memory allocation functions:
+
+
 <br/>
 malloc: Allocates a single block of memory
 <br/>
