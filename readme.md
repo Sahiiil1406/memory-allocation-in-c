@@ -13,6 +13,7 @@ free: Deallocates memory
 
 
 Our implementation uses a custom heap management system.
+<br/>
 We maintain a linked list of free memory blocks to handle allocation and deallocation efficiently.
 The allocator uses a "first-fit" strategy for finding suitable memory blocks.
 Coalescing of adjacent free blocks is performed to reduce fragmentation.
